@@ -26,7 +26,7 @@ app.post('/login', (req, res) => {
     let password = req.body.password
 
     if(username == "manoj" && password == "password")
-        return res.status(200).json({status : "SUCCESS"})
+        return res.status(200).json({status : "SUCCsdsdsESS"})
     else  return res.status(400).json({status : "Failed to authenticate"})
 })
 
